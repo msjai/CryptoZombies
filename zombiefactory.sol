@@ -26,7 +26,7 @@ contract ZombieFactory {
         //для старых версий компилятора  >=0.5.0 <0.6.0
         //uint id = zombies.push(Zombie(_name, _dna)) - 1;
         
-        //для новой версии компилятора, начиная с ^0.8.14 45678
+        //для новой версии компилятора, начиная с ^0.8.14 456789
         zombies.push(Zombie(_name, _dna));
         uint id = zombies.length - 1;
         
